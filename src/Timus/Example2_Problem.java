@@ -8,10 +8,10 @@ public class Example2_Problem {
         Scanner in = new Scanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
 
-        int A = in.nextInt();
-        int B = in.nextInt();
+        int x = in.nextInt();
+        int b = in.nextInt();
 
-        int result = A + B;
+        int result = x + b;
 
         out.println(result);
         out.flush();
