@@ -2,7 +2,7 @@ package ЛР3;
 
 import java.util.Scanner;
 
-public class Example3 {
+public class Example3_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите первое число: ");
@@ -13,11 +13,14 @@ public class Example3 {
         System.out.println("Последовательность чисел Фибоначчи: ");
         System.out.println(a);
         System.out.println(b);
-        for (int i = 1; i < 10; i ++) {
+        while (a >= 0) {
             x = a + b;
             a = b;
             b = x;
             System.out.println(x);
+            if (x >= 100) {
+                break;
+            }
         }
     }
 }

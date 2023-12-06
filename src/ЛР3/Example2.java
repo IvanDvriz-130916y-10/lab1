@@ -4,18 +4,18 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Example2 {
-        public static void main (String[]args){
-            Scanner scanner = new Scanner(System.in);
-            PrintWriter out = new PrintWriter(System.out);
-            System.out.println("Введите число от 1 до 7");
-            String Day = scanner.nextLine();
-            String monday = "Понедельник";
-            String tuesday = "Вторник";
-            String wednesday = "Среда";
-            String thursday = "Четверг";
-            String friday = "Пятница";
-            String saturday = "Суббота";
-            String sunday = "Воскресенье";
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        PrintWriter out = new PrintWriter(System.out);
+        System.out.println("Напишите день недели!");
+        String Day = scanner.nextLine();
+        String monday = "Понедельник";
+        String tuesday = "Вторник";
+        String wednesday = "Среда";
+        String thursday = "Четверг";
+        String friday = "Пятница";
+        String saturday = "Суббота";
+        String sunday = "Воскресенье";
             switch (Day) {
                 case "Понедельник":
                     out.println("1");
@@ -37,10 +37,14 @@ public class Example2 {
                     break;
                 case "Воскресенье":
                     out.println("7");
+                    break;
+                default:
+                    System.out.println("Такого дня нет");
             }
-
-            out.println();
+        out.println();
             out.flush();
         }
     }
+
+
 
