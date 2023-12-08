@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Example7 {
         public static void main(String[] args)  {
             Scanner scanner = new Scanner(System.in);
-            char [] cool = new char[]{'а','в','д','ё','з','й','л','н','п','р'};
+            char [] cool = new char[]{'a','c','e','g','i','k','m','o','q','s'};
             for (int i =0; i < 10; i++) {
                 System.out.println("В обычном виде: " + cool[i]);
             }
