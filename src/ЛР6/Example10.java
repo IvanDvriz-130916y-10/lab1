@@ -7,6 +7,7 @@ public class Example10 {
     public static void main(String[] args) {
 
         int [] arrayInt = getMaxAndMinMaxVould (12,53,46,5,20);
+        System.out.println("Наименьшее и наибольшее значение среди аргументов: ");
         System.out.println(Arrays.toString(arrayInt));
     }
     public static int []  getMaxAndMinMaxVould (int ... v) {

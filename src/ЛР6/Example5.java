@@ -4,7 +4,7 @@ public class Example5 {
     public static void main(String[] args) {
             Main5 example5 = new Main5();
             int n = example5.sumOfSquares(5);
-        System.out.println(n);
+        System.out.println( "Сумма квадратов 5 = " + n);
     }
     static class Main5 {
          int sumOfSquares (int n) {
